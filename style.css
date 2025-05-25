@@ -1,0 +1,157 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f6f7fb;
+    color: #232323;
+    min-height: 100vh;
+}
+
+/* Header and Navigation */
+header {
+    background: linear-gradient(90deg, #222 70%, #bfa45d 100%);
+    color: #fff;
+    padding: 28px 0 12px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(34,34,34,0.09);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 0 2px 8px #bfa45d55;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    background: #bfa45d;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+    padding: 7px 18px;
+    border-radius: 18px;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 8px #bfa45d33;
+    font-size: 1.06em;
+}
+
+nav a:hover, nav a:focus {
+    background: #fff;
+    color: #bfa45d;
+    box-shadow: 0 4px 16px #bfa45d55;
+    outline: none;
+}
+
+/* Main Content */
+main {
+    max-width: 950px;
+    margin: 36px auto 60px auto;
+    background: #fff;
+    padding: 40px 32px 32px 32px;
+    border-radius: 16px;
+    box-shadow: 0 6px 32px #bfa45d11, 0 1.5px 6px #2221;
+    min-height: 50vh;
+}
+
+h2 {
+    color: #bfa45d;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+section {
+    margin-bottom: 36px;
+}
+
+p, li {
+    font-size: 1.11em;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+ul {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+/* Card style for service list */
+ul li {
+    background: #faf7f1;
+    border-left: 5px solid #bfa45d;
+    padding: 10px 18px;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    box-shadow: 0 0.5px 6px #bfa45d29;
+}
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #222 70%, #bfa45d 100%);
+    color: #fff;
+    text-align: center;
+    padding: 17px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    letter-spacing: 1px;
+    font-size: 1.07em;
+    box-shadow: 0 -2px 10px #bfa45d23;
+}
+/* Contact info styling */
+.contact-info p {
+    font-size: 1.13em;
+    margin-bottom: 10px;
+}
+
+.contact-info p::before {
+    content: "⌚ ";
+    color: #bfa45d;
+}
+/* Hero section for Home page (optional) */
+.hero {
+    background: linear-gradient(90deg, #bfa45d26, #fff 70%);
+    padding: 30px 22px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    text-align: center;
+    box-shadow: 0 2px 16px #bfa45d15;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #bfa45d;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    font-size: 1.23em;
+    color: #232323;
+    margin-bottom: 0;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        padding: 18px 7vw 32px 7vw;
+    }
+    .hero {
+        padding: 16px 5vw;
+    }
+    header h1 {
+        font-size: 1.4em;
+    }
+    nav a {
+        padding: 6px 9px;
+        font-size: 0.98em;
+    }
+    footer {
+        font-size: 0.99em;
+        padding: 11px 0;
+    }
+}
