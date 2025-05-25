@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f6f7fb;
+    background-image: url(./images/switzerland.webp);
     color: #232323;
     min-height: 100vh;
 }
@@ -155,3 +155,8 @@ footer {
         padding: 11px 0;
     }
 }
+    section dt {
+        font-style: italic;
+        font-size:28px;
+        color: #bfa45d;
+    }
