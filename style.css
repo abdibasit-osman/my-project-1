@@ -54,7 +54,7 @@ nav a:hover, nav a:focus {
 main {
     max-width: 950px;
     margin: 36px auto 60px auto;
-    background: #fff;
+    background: rgba(255,255,255,0.8);
     padding: 40px 32px 32px 32px;
     border-radius: 16px;
     box-shadow: 0 6px 32px #bfa45d11, 0 1.5px 6px #2221;
